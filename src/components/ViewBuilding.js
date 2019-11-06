@@ -43,7 +43,7 @@ class ViewBuilding extends React.Component {
 		return (
 			<div>
 				<p>
-					{' '}
+					{'	'}
 					<i>Click on a name to view more information</i>
 					<div>{buildingInfo}</div>
 				</p>
