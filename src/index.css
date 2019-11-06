@@ -4,6 +4,9 @@ body {
 	font-family: sans-serif;
 }
 
+.bg {
+	background-color: #003087
+}
 /* ##### general ##### */
 * {
 	box-sizing: border-box;
@@ -14,16 +17,16 @@ main {
 
 /* ##### Search ##### */
 header {
-	background: #3498db;
+	background: #003087;
 	margin-bottom: 2rem;
 }
 
 input[type='text'] {
 	margin: 1rem;
-	background: #fff;
+	background: #D93505;
 	font-size: 1.3rem;
 	border: none;
-	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
 	border-radius: 3px;
 	padding: 0 2rem;
 	width: calc(100% - 2rem);
@@ -44,7 +47,7 @@ th {
 td:hover {
 	position: left;
 	cursor: pointer;
-	background-color: #ddd;
+	background-color: #D93505;
 }
 
 /* ##### Columns ##### */
@@ -57,7 +60,7 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: #FA4616;
 }
 
 /* ##### Rows ##### */
@@ -87,16 +90,16 @@ td:hover {
 	color: #3498bb;
 }
 button {
-	background: #d7d7d7;
-	color: #3b3b3b;
+	background: #FA4616;
+	color: #000000;
 	padding: 0.6rem 1rem;
 	font-size: 0.8rem;
-	border: solid 1px #c7c7c7;
+	border: solid 1px #FA4616;
 	margin: 1rem 0;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 3px 10px rgba(217, 53, 5, 0.1);
 	border-radius: 3px;
 	outline: none;
 }
 button:hover {
-	background: #ddd;
+	background: #D93505;
 }
